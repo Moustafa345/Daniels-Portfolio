@@ -1,0 +1,758 @@
+/* Global Rules Start */
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: #748182;
+    font-family: 'Poppins', sans-serif;
+}
+/* Global Rules End */
+
+/* Header Section Start */
+/* Navbar Start */
+
+.navbar .container img {
+    width:81px;
+    height:31px;
+
+}
+.nav-item .nav-link {
+    color: #000;
+    padding-left: 19px !important;
+}
+
+/* Navbar End */
+
+/* Landing Start */
+.landing-bg {
+    background-image:url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.landing-layer {
+    height: 100vh;
+    background-color: rgba(7, 7, 7, 0.7);
+}
+.landing-par {
+    max-width: 500px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.landing-button {
+    border: #fff 2px solid ;
+}
+.landing-button:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+
+}
+/* Paragraph Animation Start*/
+.landing-layer h2::after {
+    content: "|";
+    animation: typing 10s linear infinite;
+    -webkit-animation: typing 10s linear infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "A|";
+    }
+
+    1% {
+        content: "A |";
+    }
+
+    2% {
+        content: "A G|";
+    }
+
+    3% {
+        content: "A Gr|";
+    }
+
+    4% {
+        content: "A Gra|";
+    }
+
+    5% {
+        content: "A Grap|";
+    }
+
+    6% {
+        content: "A Graph|";
+    }
+
+    7% {
+        content: "A Graphi|";
+    }
+
+    8% {
+        content: "A Graphic|";
+    }
+
+    9% {
+        content: "A Graphic |";
+    }
+
+    10% {
+        content: "A Graphic D|";
+    }
+
+    11% {
+        content: "A Graphic De|";
+    }
+
+    13% {
+        content: "A Graphic Des|";
+    }
+
+    14% {
+        content: "A Graphic Desi|";
+    }
+
+    15% {
+        content: "A Graphic Desig|";
+    }
+
+    16% {
+        content: "A Graphic Design|";
+    }
+
+    17% {
+        content: "A Graphic Designe|";
+    }
+
+    18% {
+        content: "A Graphic Designer|";
+    }
+
+    19% {
+        content: "A Graphic Designer.|";
+    }
+
+    20% {
+        content: "A Graphic Designer.|";
+    }
+
+    21% {
+        content: "A Graphic Designer.|";
+    }
+
+    22% {
+        content: "A Graphic Designer|";
+    }
+
+    23% {
+        content: "A Graphic Designe|";
+    }
+
+    24% {
+        content: "A Graphic Design|";
+    }
+
+    25% {
+        content: "A Graphic Desig|";
+    }
+
+    25% {
+        content: "A Graphic Desi|";
+    }
+
+    26% {
+        content: "A Graphic Des|";
+    }
+
+    27% {
+        content: "A Graphic De|";
+    }
+
+    28% {
+        content: "A Graphic D|";
+    }
+
+    29% {
+        content: "A Graphic |";
+    }
+
+    30% {
+        content: "A Graphic|";
+    }
+
+    31% {
+        content: "A Graphi|";
+    }
+
+    32% {
+        content: "A Graph|";
+    }
+
+    33% {
+        content: "A Grap|";
+    }
+
+    34% {
+        content: "A Gra|";
+    }
+
+    35% {
+        content: "A Gr|";
+    }
+
+    36% {
+        content: "A G|";
+    }
+
+    37% {
+        content: "A |";
+    }
+
+    38% {
+        content: "A P|";
+    }
+
+    39% {
+        content: "A Ph|";
+    }
+
+    40% {
+        content: "A Pho|";
+    }
+
+    41% {
+        content: "A Phot|";
+    }
+
+    42% {
+        content: "A Photo|";
+    }
+
+    43% {
+        content: "A Photog|";
+    }
+
+    44% {
+        content: "A Photogr|";
+    }
+
+    45% {
+        content: "A Photogra|";
+    }
+
+    46% {
+        content: "A Photograp|";
+    }
+
+    47% {
+        content: "A Photograph|";
+    }
+
+    48% {
+        content: "A Photographe|";
+    }
+
+    49% {
+        content: "A Photographer|";
+    }
+
+    50% {
+        content: "A Photographer.|";
+    }
+
+    51% {
+        content: "A Photographer.|";
+    }
+
+    52% {
+        content: "A Photographer.|";
+    }
+
+    53% {
+        content: "A Photographer|";
+    }
+
+    54% {
+        content: "A Photographe|";
+    }
+
+    55% {
+        content: "A Photograph|";
+    }
+
+    56% {
+        content: "A Photograp|";
+    }
+
+    57% {
+        content: "A Photogra|";
+    }
+
+    58% {
+        content: "A Photogr|";
+    }
+
+    59% {
+        content: "A Photog|";
+    }
+
+    60% {
+        content: "A Photo|";
+    }
+
+    61% {
+        content: "A Phot|";
+    }
+
+    62% {
+        content: "A Pho|";
+    }
+
+    63% {
+        content: "A Ph|";
+    }
+
+    64% {
+        content: "A P|";
+    }
+
+    65% {
+        content: "A |";
+    }
+
+    66% {
+        content: "A|";
+    }
+
+    67% {
+        content: "|";
+    }
+
+    68% {
+        content: "K|";
+    }
+
+    69% {
+        content: "Ke|";
+    }
+
+    70% {
+        content: "Ker|";
+    }
+
+    71% {
+        content: "Kerr|";
+    }
+
+    72% {
+        content: "Kerri|";
+    }
+
+    73% {
+        content: "Kerri |";
+    }
+
+    74% {
+        content: "Kerri D|";
+    }
+
+    75% {
+        content: "Kerri De|";
+    }
+
+    76% {
+        content: "Kerri Deo|";
+    }
+
+    77% {
+        content: "Kerri Deo.|";
+    }
+
+    78% {
+        content: "Kerri Deo.|";
+    }
+
+    79% {
+        content: "Kerri Deo.|";
+    }
+
+    80% {
+        content: "Kerri Deo|";
+    }
+
+    81% {
+        content: "Kerri De|";
+    }
+
+    82% {
+        content: "Kerri D|";
+    }
+
+    83% {
+        content: "Kerri |";
+    }
+
+    84% {
+        content: "Kerri|";
+    }
+
+    85% {
+        content: "Kerr|";
+    }
+
+    86% {
+        content: "Ker|";
+    }
+
+    87% {
+        content: "Ke|";
+    }
+
+    88% {
+        content: "K|";
+    }
+
+    89% {
+        content: "|";
+    }
+
+    90% {
+        content: "|";
+    }
+
+    91% {
+        content: "|";
+    }
+
+    92% {
+        content: "|";
+    }
+
+    93% {
+        content: "|";
+    }
+
+    94% {
+        content: "|";
+    }
+
+    95% {
+        content: "|";
+    }
+
+    96% {
+        content: "|";
+    }
+
+    97% {
+        content: "|";
+    }
+
+    98% {
+        content: "|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+    /* Kerri Deo.| */
+    /* A Graphic Designer.| */
+    /* A Photographer.| */
+}
+/* Paragraph Animation End*/
+.landing-icons i {
+margin-left: 20px;
+}
+/* Landing End */
+/* Header Section End */
+
+/* Hero Section Start */
+
+.global-line {
+    border-bottom: rgba(114, 114, 114, 0.1) 2px dotted;
+    width: fit-content;
+    margin: auto;
+}
+.hero-section .hero-img:before {
+    content: "";
+    background-image: url(../img/dots.png);
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    bottom: -35px;
+    left: -6px;
+    z-index: -999;
+}
+/* Hero Section End */
+
+/* About me Start */
+.aboutme .left-button {
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all .5s;
+}
+.aboutme .right-button {
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all .5s;
+}
+.aboutme .left-button:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.aboutme .right-button:hover{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+/* About me End */
+
+/* Services Section Start */
+
+.services-item {
+    box-shadow: 3px 2px 20px 0px rgb(201 199 199);   
+}
+.services-icon i{
+    transition: all 0.7s;
+}
+.services-icon:hover i{
+background-color: #000 !important;
+color: #fff !important;
+}
+/* Services Section End */
+
+
+/* Portfolio Section Start */
+.portfolio-tabs .nav-item .nav-link {
+    border-radius:3rem;
+    -webkit-border-radius:3rem;
+    -moz-border-radius:3rem;
+    -ms-border-radius:3rem;
+    -o-border-radius:3rem;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.portfolio-tabs .nav-item .nav-link:hover {
+    background: none;
+    border: 0;
+}
+.portfolio-tabs .nav-item .active {
+    background: none;
+    color: #000;
+    text-decoration: underline 2px;
+}
+.portfolio-item figcaption {
+    opacity: 0;
+    transition:all 1s ;
+    -webkit-transition:all 1s ;
+    -moz-transition:all 1s ;
+    -ms-transition:all 1s ;
+    -o-transition:all 1s ;
+}
+.portfolio-item:hover figcaption {
+    opacity: 1;
+}
+.portfolio-item:hover .portfolio-text {
+bottom:0 !important;
+}
+.portfolio-item  .portfolio-text:hover h3 {
+bottom:0 !important;
+}
+.portfolio-item .portfolio-text {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    top: 30px;
+}
+.portfolio-item .portfolio-text h3 {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    top: 30px;
+}
+.portfolio-item figcaption p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+.portfolio-item:hover figure {
+    border: 6px #343434 solid;
+    opacity:1;
+}
+.portfolio-item:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+   
+}
+.portfolio-item img {
+    transition: all 1s;
+}
+/* Portfolio Section End */
+
+/* Testimonials Section Start */
+.global-par {
+    max-width: 500px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.75) !important;
+    margin-right: auto;
+    margin-left:auto ;
+}
+
+.carousel-par {
+    max-width: 750px;
+    margin-bottom: 30px;
+}
+.carousel-caption {
+    position:static !important;
+    padding-top: 0;
+    display: none;
+}
+
+.carousel-indicators {
+    position: absolute !important;
+    bottom: -2rem !important;
+}
+
+#carouselExampleDark .carousel-indicators button {
+    border-radius:50%;
+    height:13px;
+    width: 13px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border: 1px solid transparent;
+    opacity: 0.5;
+    background-color: #d6d6d6;
+    transition: all 0.5s;
+}
+
+#carouselExampleDark .carousel-indicators .active {
+    background-color: #869791;
+    border-radius:50%;
+    height:13px;
+    width: 13px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.carousel-item img {
+    width:200px;
+}
+/* Testimonials Section End */
+
+/* Blog Section Start */
+
+.blog-section{
+    background: #f7f7f7;
+  
+  }
+  .blog-section .carousel-indicators{
+    position:unset ;
+  }
+  .container-see{
+      width: 90%;
+      margin: auto;
+  }
+  #blog-carousel h6{
+      color: #748182;
+      margin-left: 20px;
+    font-size: 12px !important;
+  }
+  #blog-carousel p{
+      margin-left: 20px;
+    font-weight: 800;
+    font-size: 1.2rem !important;
+  }
+  .inner{
+    box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%);
+  }
+  .blog-section img:hover{
+    transform: scale(1.1);
+  }
+  .blog-section  img{
+    box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%);
+      height: 250px
+      !important;
+      transition: 0.8s all;
+  }
+  .carousel-indicators [type="button"]{
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background-color: grey;
+  }
+  .carousel-indicators [type="button"]:hover{
+      opacity: 1;
+  }
+  .blog-read{
+      width: fit-content;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      border-bottom: 2px solid;
+      padding: 0px !important;
+      font-size: 14px !important;
+  }
+/* Blog Section End */
+
+/* Contact section Start */
+
+.contact-icon i{
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+.contact-icon:hover i{
+background-color: #000 !important;
+color: #fff !important;
+}
+.contact-section {
+    max-width: 1100px !important;
+    margin:auto
+}
+::placeholder {
+    font-size: 15px;
+    color: rgb(109, 109, 109) !important;
+}
+input, textarea {
+    background-color: #f4f4f4 !important;
+}
+
+/* Contact section End */
+
+/* Footer Section Start */
+.footer-section p{
+    color:#748182 !important;
+    font-size: 13px !important;
+    word-spacing: 2px;
+    margin: 0;
+}
+/* Footer Section End */
